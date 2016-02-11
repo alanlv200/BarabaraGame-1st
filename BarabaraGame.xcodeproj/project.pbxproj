@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06AD81511C6C572200C93D60 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD81501C6C572200C93D60 /* AppDelegate.swift */; };
+		06AD81531C6C572200C93D60 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD81521C6C572200C93D60 /* ViewController.swift */; };
+		06AD81561C6C572200C93D60 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AD81541C6C572200C93D60 /* Main.storyboard */; };
+		06AD81581C6C572200C93D60 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06AD81571C6C572200C93D60 /* Assets.xcassets */; };
+		06AD815B1C6C572200C93D60 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06AD81591C6C572200C93D60 /* LaunchScreen.storyboard */; };
+		06AD81661C6C572200C93D60 /* BarabaraGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD81651C6C572200C93D60 /* BarabaraGameTests.swift */; };
+		06AD81711C6C572200C93D60 /* BarabaraGameUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06AD81701C6C572200C93D60 /* BarabaraGameUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06AD81621C6C572200C93D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06AD81451C6C572200C93D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06AD814C1C6C572200C93D60;
+			remoteInfo = BarabaraGame;
+		};
+		06AD816D1C6C572200C93D60 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06AD81451C6C572200C93D60 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06AD814C1C6C572200C93D60;
+			remoteInfo = BarabaraGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06AD814D1C6C572200C93D60 /* BarabaraGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarabaraGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AD81501C6C572200C93D60 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		06AD81521C6C572200C93D60 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		06AD81551C6C572200C93D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06AD81571C6C572200C93D60 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06AD815A1C6C572200C93D60 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06AD815C1C6C572200C93D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AD81611C6C572200C93D60 /* BarabaraGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AD81651C6C572200C93D60 /* BarabaraGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameTests.swift; sourceTree = "<group>"; };
+		06AD81671C6C572200C93D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06AD816C1C6C572200C93D60 /* BarabaraGameUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarabaraGameUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06AD81701C6C572200C93D60 /* BarabaraGameUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarabaraGameUITests.swift; sourceTree = "<group>"; };
+		06AD81721C6C572200C93D60 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06AD814A1C6C572200C93D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AD815E1C6C572200C93D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AD81691C6C572200C93D60 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06AD81441C6C572200C93D60 = {
+			isa = PBXGroup;
+			children = (
+				06AD814F1C6C572200C93D60 /* BarabaraGame */,
+				06AD81641C6C572200C93D60 /* BarabaraGameTests */,
+				06AD816F1C6C572200C93D60 /* BarabaraGameUITests */,
+				06AD814E1C6C572200C93D60 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06AD814E1C6C572200C93D60 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06AD814D1C6C572200C93D60 /* BarabaraGame.app */,
+				06AD81611C6C572200C93D60 /* BarabaraGameTests.xctest */,
+				06AD816C1C6C572200C93D60 /* BarabaraGameUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06AD814F1C6C572200C93D60 /* BarabaraGame */ = {
+			isa = PBXGroup;
+			children = (
+				06AD81501C6C572200C93D60 /* AppDelegate.swift */,
+				06AD81521C6C572200C93D60 /* ViewController.swift */,
+				06AD81541C6C572200C93D60 /* Main.storyboard */,
+				06AD81571C6C572200C93D60 /* Assets.xcassets */,
+				06AD81591C6C572200C93D60 /* LaunchScreen.storyboard */,
+				06AD815C1C6C572200C93D60 /* Info.plist */,
+			);
+			path = BarabaraGame;
+			sourceTree = "<group>";
+		};
+		06AD81641C6C572200C93D60 /* BarabaraGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				06AD81651C6C572200C93D60 /* BarabaraGameTests.swift */,
+				06AD81671C6C572200C93D60 /* Info.plist */,
+			);
+			path = BarabaraGameTests;
+			sourceTree = "<group>";
+		};
+		06AD816F1C6C572200C93D60 /* BarabaraGameUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06AD81701C6C572200C93D60 /* BarabaraGameUITests.swift */,
+				06AD81721C6C572200C93D60 /* Info.plist */,
+			);
+			path = BarabaraGameUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06AD814C1C6C572200C93D60 /* BarabaraGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06AD81751C6C572200C93D60 /* Build configuration list for PBXNativeTarget "BarabaraGame" */;
+			buildPhases = (
+				06AD81491C6C572200C93D60 /* Sources */,
+				06AD814A1C6C572200C93D60 /* Frameworks */,
+				06AD814B1C6C572200C93D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarabaraGame;
+			productName = BarabaraGame;
+			productReference = 06AD814D1C6C572200C93D60 /* BarabaraGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06AD81601C6C572200C93D60 /* BarabaraGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06AD81781C6C572200C93D60 /* Build configuration list for PBXNativeTarget "BarabaraGameTests" */;
+			buildPhases = (
+				06AD815D1C6C572200C93D60 /* Sources */,
+				06AD815E1C6C572200C93D60 /* Frameworks */,
+				06AD815F1C6C572200C93D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06AD81631C6C572200C93D60 /* PBXTargetDependency */,
+			);
+			name = BarabaraGameTests;
+			productName = BarabaraGameTests;
+			productReference = 06AD81611C6C572200C93D60 /* BarabaraGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06AD816B1C6C572200C93D60 /* BarabaraGameUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06AD817B1C6C572200C93D60 /* Build configuration list for PBXNativeTarget "BarabaraGameUITests" */;
+			buildPhases = (
+				06AD81681C6C572200C93D60 /* Sources */,
+				06AD81691C6C572200C93D60 /* Frameworks */,
+				06AD816A1C6C572200C93D60 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06AD816E1C6C572200C93D60 /* PBXTargetDependency */,
+			);
+			name = BarabaraGameUITests;
+			productName = BarabaraGameUITests;
+			productReference = 06AD816C1C6C572200C93D60 /* BarabaraGameUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06AD81451C6C572200C93D60 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "平山大翼";
+				TargetAttributes = {
+					06AD814C1C6C572200C93D60 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					06AD81601C6C572200C93D60 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 06AD814C1C6C572200C93D60;
+					};
+					06AD816B1C6C572200C93D60 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 06AD814C1C6C572200C93D60;
+					};
+				};
+			};
+			buildConfigurationList = 06AD81481C6C572200C93D60 /* Build configuration list for PBXProject "BarabaraGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06AD81441C6C572200C93D60;
+			productRefGroup = 06AD814E1C6C572200C93D60 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06AD814C1C6C572200C93D60 /* BarabaraGame */,
+				06AD81601C6C572200C93D60 /* BarabaraGameTests */,
+				06AD816B1C6C572200C93D60 /* BarabaraGameUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06AD814B1C6C572200C93D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AD815B1C6C572200C93D60 /* LaunchScreen.storyboard in Resources */,
+				06AD81581C6C572200C93D60 /* Assets.xcassets in Resources */,
+				06AD81561C6C572200C93D60 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AD815F1C6C572200C93D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AD816A1C6C572200C93D60 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06AD81491C6C572200C93D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AD81531C6C572200C93D60 /* ViewController.swift in Sources */,
+				06AD81511C6C572200C93D60 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AD815D1C6C572200C93D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AD81661C6C572200C93D60 /* BarabaraGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06AD81681C6C572200C93D60 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06AD81711C6C572200C93D60 /* BarabaraGameUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06AD81631C6C572200C93D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06AD814C1C6C572200C93D60 /* BarabaraGame */;
+			targetProxy = 06AD81621C6C572200C93D60 /* PBXContainerItemProxy */;
+		};
+		06AD816E1C6C572200C93D60 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06AD814C1C6C572200C93D60 /* BarabaraGame */;
+			targetProxy = 06AD816D1C6C572200C93D60 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06AD81541C6C572200C93D60 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06AD81551C6C572200C93D60 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06AD81591C6C572200C93D60 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06AD815A1C6C572200C93D60 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06AD81731C6C572200C93D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		06AD81741C6C572200C93D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06AD81761C6C572200C93D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarabaraGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hirayama.BarabaraGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06AD81771C6C572200C93D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarabaraGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hirayama.BarabaraGame;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06AD81791C6C572200C93D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarabaraGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hirayama.BarabaraGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarabaraGame.app/BarabaraGame";
+			};
+			name = Debug;
+		};
+		06AD817A1C6C572200C93D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarabaraGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hirayama.BarabaraGameTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarabaraGame.app/BarabaraGame";
+			};
+			name = Release;
+		};
+		06AD817C1C6C572200C93D60 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BarabaraGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hirayama.BarabaraGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarabaraGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		06AD817D1C6C572200C93D60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = BarabaraGameUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hirayama.BarabaraGameUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = BarabaraGame;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06AD81481C6C572200C93D60 /* Build configuration list for PBXProject "BarabaraGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AD81731C6C572200C93D60 /* Debug */,
+				06AD81741C6C572200C93D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06AD81751C6C572200C93D60 /* Build configuration list for PBXNativeTarget "BarabaraGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AD81761C6C572200C93D60 /* Debug */,
+				06AD81771C6C572200C93D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06AD81781C6C572200C93D60 /* Build configuration list for PBXNativeTarget "BarabaraGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AD81791C6C572200C93D60 /* Debug */,
+				06AD817A1C6C572200C93D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06AD817B1C6C572200C93D60 /* Build configuration list for PBXNativeTarget "BarabaraGameUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06AD817C1C6C572200C93D60 /* Debug */,
+				06AD817D1C6C572200C93D60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06AD81451C6C572200C93D60 /* Project object */;
+}
